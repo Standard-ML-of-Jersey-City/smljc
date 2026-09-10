@@ -55,7 +55,7 @@ val ORELSE:       'a * 'a -> (svalue, 'a) token
 val RAISE:        'a * 'a -> (svalue, 'a) token
 val REC:          'a * 'a -> (svalue, 'a) token
 (* TODO: Ref isn't a reserved word in the definition of Core *)
-val REF:          'a * 'a -> (svalue, 'a) token
+(*val REF:          'a * 'a -> (svalue, 'a) token*)
 val THEN:         'a * 'a -> (svalue, 'a) token
 val TYPE:         'a * 'a -> (svalue, 'a) token
 val VAL:          'a * 'a -> (Svalue, 'a) Token
